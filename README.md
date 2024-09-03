@@ -44,3 +44,6 @@ The model achieves an accuracy of **95%** on the validation set and **94%** on t
 | F1 Score             | 0.93      |
 
 These results indicate that the model is highly effective in accurately identifying brain tumors from MRI scans, making it a valuable tool for aiding medical diagnosis.
+## Contact
+
+For any inquiries or support, please reach out to [![Instagram](https://img.shields.io/badge/Instagram-%40isanjeevroy-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/isanjeevroy/)
