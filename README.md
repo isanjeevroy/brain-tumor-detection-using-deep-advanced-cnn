@@ -6,6 +6,7 @@ This project focuses on detecting brain tumors from MRI images using advanced de
 - [Introduction](#introduction)
 - [Features](#features)
 - [Results](#results)
+- [Model Architecture](#model-architecture)
   
 ## Introduction
 
@@ -18,6 +19,18 @@ Brain tumor detection is a critical task in the medical field, requiring precise
 - **High Performance**: Achieves high accuracy through data augmentation, transfer learning, and model optimization.
 - **User-Friendly Interface**: Provides a simple interface for easy use by medical professionals.
 - **Real-Time Analysis**: Offers quick predictions to support real-time decision-making.
+- 
+## Model Architecture
+
+The model architecture is based on a Convolutional Neural Network (CNN) optimized for image classification tasks. It consists of the following components:
+
+- **Convolutional Layers**: Several convolutional layers are used to extract features from the input MRI images.
+- **Pooling Layers**: Pooling layers are applied after convolutional layers to reduce the spatial dimensions, which helps in reducing the computational complexity.
+- **Dropout for Regularization**: Dropout layers are included to prevent overfitting by randomly dropping a fraction of neurons during training.
+- **Fully Connected Layers**: These layers are used for the final classification of the images into tumor and no-tumor categories.
+- **Transfer Learning**: The model leverages transfer learning from pre-trained models like ResNet or VGG to enhance performance, especially when the training data is limited. This allows the model to utilize pre-learned features from these models and fine-tune them for brain tumor detection.
+
+This architecture ensures high accuracy and generalization across different datasets, making it effective for real-world medical applications.
 
 ## Results
 
