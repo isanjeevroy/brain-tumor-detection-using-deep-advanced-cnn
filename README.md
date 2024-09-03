@@ -19,7 +19,7 @@ Brain tumor detection is a critical task in the medical field, requiring precise
 - **High Performance**: Achieves high accuracy through data augmentation, transfer learning, and model optimization.
 - **User-Friendly Interface**: Provides a simple interface for easy use by medical professionals.
 - **Real-Time Analysis**: Offers quick predictions to support real-time decision-making.
-- 
+
 ## Model Architecture
 
 The model architecture is based on a Convolutional Neural Network (CNN) optimized for image classification tasks. It consists of the following components:
